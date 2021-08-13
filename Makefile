@@ -4,7 +4,7 @@ JFLAGS = -g
 default: all
 
 all: hello.java
-     $(JC) $(JFLAGS) $<
-	
+	$(JC) $(JFLAGS) $<
+
 clean:
-     $(RM) *.class
+	$(RM) *.class
